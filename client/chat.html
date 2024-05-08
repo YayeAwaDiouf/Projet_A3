@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome_To_The_Delbot_Culte_Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="h1-police">Bienvenue Chez Delbot</h1>
+  <h1 id="h1-police2">Discutons sacrifices </h1>
+  <div id="chat-container">
+    <div id="chat-box">
+      <div id="chat-messages"></div>
+    </div>
+    <form id="chat-form">
+      <input type="text" width="80%" id="message-input" placeholder="  S a t a n    v o u s    e c o u t e ...">
+      <button type="submit" id="send-button1">E n v o y e r</button>
+    </form>
+  </div>
+  <audio id="background-music" src="rire_delbot.mp3" loop autoplay></audio>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/socket.io/nodersa.js"></script>
+  <script src="client.js"></script>
+  <style>
+    #message-input {
+      width: 80%;
+    }
+  </style>
+</body>
+</html>
